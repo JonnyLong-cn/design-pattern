@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.adapter.Mp4Player</OriginalElement>
+  <nodes>
+    <node x="168.95572916666669" y="0.0">structural.adapter.AdvancedMediaPlayer</node>
+    <node x="168.4140625" y="260.0">structural.adapter.MediaAdapter</node>
+    <node x="291.25" y="453.0">structural.adapter.AudioPlayer</node>
+    <node x="383.0" y="141.5">structural.adapter.MediaPlayer</node>
+    <node x="0.0" y="130.0">structural.adapter.Mp4Player</node>
+    <node x="191.0" y="130.0">structural.adapter.VlcPlayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.adapter.VlcPlayer" target="structural.adapter.AdvancedMediaPlayer">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="structural.adapter.MediaAdapter" target="structural.adapter.AdvancedMediaPlayer">
+      <point x="38.375" y="-71.5" />
+      <point x="360.2890625" y="235.0" />
+      <point x="372.5" y="235.0" />
+      <point x="372.5" y="105.0" />
+      <point x="348.12239583333337" y="105.0" />
+      <point x="71.66666666666669" y="40.0" />
+    </edge>
+    <edge source="structural.adapter.AudioPlayer" target="structural.adapter.MediaAdapter">
+      <point x="0.0" y="-50.0" />
+      <point x="401.25" y="428.0" />
+      <point x="398.6640625" y="428.0" />
+      <point x="76.75" y="71.5" />
+    </edge>
+    <edge source="structural.adapter.MediaAdapter" target="structural.adapter.Mp4Player">
+      <point x="-115.125" y="-71.5" />
+      <point x="206.7890625" y="235.0" />
+      <point x="85.5" y="235.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="structural.adapter.Mp4Player" target="structural.adapter.AdvancedMediaPlayer">
+      <point x="0.0" y="-40.0" />
+      <point x="85.5" y="105.0" />
+      <point x="204.7890625" y="105.0" />
+      <point x="-71.66666666666669" y="40.0" />
+    </edge>
+    <edge source="structural.adapter.AudioPlayer" target="structural.adapter.MediaPlayer">
+      <point x="73.3333333333333" y="-50.0" />
+      <point x="474.5833333333333" y="428.0" />
+      <point x="521.75" y="428.0" />
+      <point x="46.25" y="28.5" />
+    </edge>
+    <edge source="structural.adapter.MediaAdapter" target="structural.adapter.VlcPlayer">
+      <point x="-38.375" y="-71.5" />
+      <point x="283.5390625" y="235.0" />
+      <point x="276.5" y="235.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="structural.adapter.MediaAdapter" target="structural.adapter.MediaPlayer">
+      <point x="115.125" y="-71.5" />
+      <point x="437.0390625" y="235.0" />
+      <point x="429.25" y="235.0" />
+      <point x="-46.25" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="284.0" y="276.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

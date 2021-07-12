@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creational.abstractfactory.FactoryProducer</OriginalElement>
+  <nodes>
+    <node x="180.00833333333333" y="267.0">creational.abstractfactory.factory.ShapeFactory</node>
+    <node x="636.4338541666667" y="0.0">creational.abstractfactory.color.Color</node>
+    <node x="424.5" y="127.0">creational.abstractfactory.factory.AbstractFactory</node>
+    <node x="632.5" y="138.5">creational.abstractfactory.color.impl.Red</node>
+    <node x="143.5" y="138.5">creational.abstractfactory.shape.impl.Rectangle</node>
+    <node x="389.5083333333333" y="397.0">creational.abstractfactory.FactoryProducer</node>
+    <node x="603.4838541666667" y="267.0">creational.abstractfactory.factory.ColorFactory</node>
+    <node x="224.43385416666666" y="0.0">creational.abstractfactory.shape.Shape</node>
+    <node x="751.5" y="138.5">creational.abstractfactory.color.impl.Yellow</node>
+    <node x="10.5" y="138.5">creational.abstractfactory.shape.impl.Circle</node>
+    <node x="290.5" y="138.5">creational.abstractfactory.shape.impl.Square</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.abstractfactory.factory.ColorFactory" target="creational.abstractfactory.color.Color">
+      <point x="37.39999999999998" y="-40.0" />
+      <point x="734.3838541666667" y="247.0" />
+      <point x="741.0" y="247.0" />
+      <point x="741.0" y="107.0" />
+      <point x="705.0338541666667" y="107.0" />
+      <point x="19.599999999999994" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.FactoryProducer" target="creational.abstractfactory.factory.AbstractFactory">
+      <point x="0.0" y="-28.5" />
+      <point x="514.5083333333333" y="372.0" />
+      <point x="518.0" y="372.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.AbstractFactory" target="creational.abstractfactory.shape.Shape">
+      <point x="-46.75" y="-40.0" />
+      <point x="471.25" y="87.0" />
+      <point x="309.18385416666666" y="87.0" />
+      <point x="28.25" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.FactoryProducer" target="creational.abstractfactory.factory.ShapeFactory">
+      <point x="-83.33333333333331" y="-28.5" />
+      <point x="431.175" y="372.0" />
+      <point x="273.5083333333333" y="372.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ColorFactory" target="creational.abstractfactory.color.impl.Yellow">
+      <point x="74.80000000000001" y="-40.0" />
+      <point x="771.7838541666667" y="247.0" />
+      <point x="801.5" y="247.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ColorFactory" target="creational.abstractfactory.shape.Shape">
+      <point x="-37.400000000000034" y="-40.0" />
+      <point x="659.5838541666667" y="237.0" />
+      <point x="622.0" y="237.0" />
+      <point x="622.0" y="77.0" />
+      <point x="328.01718750000003" y="77.0" />
+      <point x="47.08333333333337" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.color.impl.Yellow" target="creational.abstractfactory.color.Color">
+      <point x="0.0" y="-28.5" />
+      <point x="801.5" y="97.0" />
+      <point x="724.6338541666667" y="97.0" />
+      <point x="39.19999999999999" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ShapeFactory" target="creational.abstractfactory.factory.AbstractFactory">
+      <point x="77.91666666666663" y="-40.0" />
+      <point x="351.42499999999995" y="247.0" />
+      <point x="455.6666666666667" y="247.0" />
+      <point x="-62.333333333333314" y="40.0" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ColorFactory" target="creational.abstractfactory.color.impl.Red">
+      <point x="0.0" y="-40.0" />
+      <point x="696.9838541666667" y="247.0" />
+      <point x="681.5" y="247.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ShapeFactory" target="creational.abstractfactory.shape.impl.Rectangle">
+      <point x="-15.583333333333371" y="-40.0" />
+      <point x="257.92499999999995" y="227.0" />
+      <point x="207.0" y="227.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ShapeFactory" target="creational.abstractfactory.shape.impl.Square">
+      <point x="15.583333333333371" y="-40.0" />
+      <point x="289.0916666666667" y="227.0" />
+      <point x="347.0" y="227.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ColorFactory" target="creational.abstractfactory.factory.AbstractFactory">
+      <point x="-74.80000000000004" y="-40.0" />
+      <point x="622.1838541666666" y="247.0" />
+      <point x="580.3333333333334" y="247.0" />
+      <point x="62.33333333333337" y="40.0" />
+    </edge>
+    <edge source="creational.abstractfactory.shape.impl.Rectangle" target="creational.abstractfactory.shape.Shape">
+      <point x="0.0" y="-28.5" />
+      <point x="207.0" y="107.0" />
+      <point x="271.51718750000003" y="107.0" />
+      <point x="-9.416666666666629" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ShapeFactory" target="creational.abstractfactory.shape.impl.Circle">
+      <point x="-46.75" y="-40.0" />
+      <point x="226.75833333333333" y="237.0" />
+      <point x="67.0" y="237.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.shape.impl.Square" target="creational.abstractfactory.shape.Shape">
+      <point x="0.0" y="-28.5" />
+      <point x="347.0" y="107.0" />
+      <point x="290.3505208333333" y="107.0" />
+      <point x="9.416666666666629" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.AbstractFactory" target="creational.abstractfactory.color.Color">
+      <point x="46.75" y="-40.0" />
+      <point x="564.75" y="107.0" />
+      <point x="665.8338541666667" y="107.0" />
+      <point x="-19.599999999999994" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.shape.impl.Circle" target="creational.abstractfactory.shape.Shape">
+      <point x="0.0" y="-28.5" />
+      <point x="67.0" y="97.0" />
+      <point x="252.68385416666666" y="97.0" />
+      <point x="-28.25" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ShapeFactory" target="creational.abstractfactory.shape.Shape">
+      <point x="-77.91666666666674" y="-40.0" />
+      <point x="195.59166666666658" y="247.0" />
+      <point x="0.0" y="247.0" />
+      <point x="0.0" y="87.0" />
+      <point x="233.8505208333333" y="87.0" />
+      <point x="-47.08333333333337" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.FactoryProducer" target="creational.abstractfactory.factory.ColorFactory">
+      <point x="83.33333333333331" y="-28.5" />
+      <point x="597.8416666666667" y="372.0" />
+      <point x="696.9838541666667" y="372.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="creational.abstractfactory.factory.ShapeFactory" target="creational.abstractfactory.color.Color">
+      <point x="46.75" y="-40.0" />
+      <point x="320.2583333333333" y="237.0" />
+      <point x="414.0" y="237.0" />
+      <point x="414.0" y="97.0" />
+      <point x="646.2338541666668" y="97.0" />
+      <point x="-39.19999999999999" y="28.5" />
+    </edge>
+    <edge source="creational.abstractfactory.color.impl.Red" target="creational.abstractfactory.color.Color">
+      <point x="0.0" y="-28.5" />
+      <point x="681.5" y="107.0" />
+      <point x="685.4338541666667" y="107.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="426.0" y="227.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

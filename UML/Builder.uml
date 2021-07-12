@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creational.builder.Builder</OriginalElement>
+  <nodes>
+    <node x="393.24214975845416" y="249.0">creational.builder.component.tile.MarcoPoloTile</node>
+    <node x="666.1775362318838" y="0.0">creational.builder.component.Matter</node>
+    <node x="153.24214975845416" y="239.0">creational.builder.IMenu</node>
+    <node x="1667.2421497584542" y="249.0">creational.builder.component.ceiling.LevelOneCeiling</node>
+    <node x="1467.2421497584542" y="249.0">creational.builder.component.floor.ShengXiangFloor</node>
+    <node x="948.2421497584542" y="249.0">creational.builder.component.coat.LiBangCoat</node>
+    <node x="575.2421497584542" y="249.0">creational.builder.component.tile.DongPengTile</node>
+    <node x="0.0" y="458.0">creational.builder.DecorationPackageMenu</node>
+    <node x="1294.2421497584542" y="249.0">creational.builder.component.coat.DuluxCoat</node>
+    <node x="741.0" y="875.0">creational.builder.Builder</node>
+    <node x="748.2421497584542" y="249.0">creational.builder.component.ceiling.LevelTwoCeiling</node>
+    <node x="1121.2421497584542" y="249.0">creational.builder.component.floor.DerFloor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creational.builder.Builder" target="creational.builder.component.coat.DuluxCoat">
+      <point x="44.22222222222217" y="-51.5" />
+      <point x="884.7222222222222" y="835.0" />
+      <point x="1370.7421497584542" y="835.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="creational.builder.Builder" target="creational.builder.component.coat.LiBangCoat">
+      <point x="22.111111111111086" y="-51.5" />
+      <point x="862.6111111111111" y="825.0" />
+      <point x="1024.7421497584542" y="825.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="creational.builder.component.floor.ShengXiangFloor" target="creational.builder.component.Matter">
+      <point x="0.0" y="-74.5" />
+      <point x="1557.2421497584542" y="179.0" />
+      <point x="800.0525362318838" y="179.0" />
+      <point x="57.375" y="74.5" />
+    </edge>
+    <edge source="creational.builder.IMenu" target="creational.builder.component.Matter">
+      <point x="0.0" y="-84.5" />
+      <point x="263.24214975845416" y="199.0" />
+      <point x="710.8025362318838" y="199.0" />
+      <point x="-31.875" y="74.5" />
+    </edge>
+    <edge source="creational.builder.DecorationPackageMenu" target="creational.builder.component.Matter">
+      <point x="0.0" y="-173.5" />
+      <point x="145.0" y="438.0" />
+      <point x="142.74214975845416" y="438.0" />
+      <point x="142.74214975845416" y="189.0" />
+      <point x="698.0525362318838" y="189.0" />
+      <point x="-44.625" y="74.5" />
+    </edge>
+    <edge source="creational.builder.component.ceiling.LevelOneCeiling" target="creational.builder.component.Matter">
+      <point x="5.6843418860808015E-14" y="-74.5" />
+      <point x="1757.2421497584544" y="169.0" />
+      <point x="812.8025362318838" y="169.0" />
+      <point x="70.125" y="74.5" />
+    </edge>
+    <edge source="creational.builder.component.tile.DongPengTile" target="creational.builder.component.Matter">
+      <point x="0.0" y="-74.5" />
+      <point x="651.7421497584542" y="219.0" />
+      <point x="736.3025362318838" y="219.0" />
+      <point x="-6.375" y="74.5" />
+    </edge>
+    <edge source="creational.builder.Builder" target="creational.builder.component.floor.ShengXiangFloor">
+      <point x="66.33333333333326" y="-51.5" />
+      <point x="906.8333333333333" y="845.0" />
+      <point x="1557.2421497584542" y="845.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="creational.builder.Builder" target="creational.builder.component.ceiling.LevelTwoCeiling">
+      <point x="0.0" y="-51.5" />
+      <point x="840.5" y="855.0" />
+      <point x="838.2421497584542" y="855.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="creational.builder.component.coat.LiBangCoat" target="creational.builder.component.Matter">
+      <point x="0.0" y="-74.5" />
+      <point x="1024.7421497584542" y="209.0" />
+      <point x="761.8025362318838" y="209.0" />
+      <point x="19.125" y="74.5" />
+    </edge>
+    <edge source="creational.builder.Builder" target="creational.builder.component.tile.MarcoPoloTile">
+      <point x="-44.22222222222217" y="-51.5" />
+      <point x="796.2777777777778" y="835.0" />
+      <point x="474.24214975845416" y="835.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="creational.builder.DecorationPackageMenu" target="creational.builder.IMenu">
+      <point x="116.0" y="-173.5" />
+      <point x="261.0" y="438.0" />
+      <point x="263.24214975845416" y="438.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="creational.builder.Builder" target="creational.builder.DecorationPackageMenu">
+      <point x="-88.44444444444446" y="-51.5" />
+      <point x="752.0555555555554" y="855.0" />
+      <point x="145.0" y="855.0" />
+      <point x="0.0" y="173.5" />
+    </edge>
+    <edge source="creational.builder.component.ceiling.LevelTwoCeiling" target="creational.builder.component.Matter">
+      <point x="0.0" y="-74.5" />
+      <point x="838.2421497584542" y="219.0" />
+      <point x="749.0525362318838" y="219.0" />
+      <point x="6.375" y="74.5" />
+    </edge>
+    <edge source="creational.builder.Builder" target="creational.builder.component.ceiling.LevelOneCeiling">
+      <point x="88.44444444444434" y="-51.5" />
+      <point x="928.9444444444443" y="855.0" />
+      <point x="1757.2421497584542" y="855.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="creational.builder.Builder" target="creational.builder.IMenu">
+      <point x="-66.33333333333337" y="-51.5" />
+      <point x="774.1666666666665" y="845.0" />
+      <point x="396.9359903381643" y="845.0" />
+      <point x="396.9359903381643" y="438.0" />
+      <point x="336.5754830917875" y="438.0" />
+      <point x="73.33333333333331" y="84.5" />
+    </edge>
+    <edge source="creational.builder.component.coat.DuluxCoat" target="creational.builder.component.Matter">
+      <point x="0.0" y="-74.5" />
+      <point x="1370.7421497584542" y="189.0" />
+      <point x="787.3025362318838" y="189.0" />
+      <point x="44.625" y="74.5" />
+    </edge>
+    <edge source="creational.builder.component.floor.DerFloor" target="creational.builder.component.Matter">
+      <point x="0.0" y="-74.5" />
+      <point x="1197.7421497584542" y="199.0" />
+      <point x="774.5525362318838" y="199.0" />
+      <point x="31.875" y="74.5" />
+    </edge>
+    <edge source="creational.builder.Builder" target="creational.builder.component.tile.DongPengTile">
+      <point x="-22.111111111111086" y="-51.5" />
+      <point x="818.3888888888889" y="825.0" />
+      <point x="651.7421497584542" y="825.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="creational.builder.component.tile.MarcoPoloTile" target="creational.builder.component.Matter">
+      <point x="0.0" y="-74.5" />
+      <point x="474.24214975845416" y="209.0" />
+      <point x="723.5525362318838" y="209.0" />
+      <point x="-19.125" y="74.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6145610278372591" x="924.0" y="489.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

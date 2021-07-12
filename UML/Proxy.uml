@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.proxy.ProxyImage</OriginalElement>
+  <nodes>
+    <node x="0.0" y="107.0">structural.proxy.RealImage</node>
+    <node x="61.0625" y="323.0">structural.proxy.ProxyImage</node>
+    <node x="97.6875" y="0.0">structural.proxy.Image</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.proxy.ProxyImage" target="structural.proxy.RealImage">
+      <point x="-56.33333333333334" y="-83.0" />
+      <point x="89.22916666666666" y="298.0" />
+      <point x="50.0" y="298.0" />
+      <point x="-50.0" y="83.0" />
+    </edge>
+    <edge source="structural.proxy.ProxyImage" target="structural.proxy.Image">
+      <point x="56.33333333333334" y="-83.0" />
+      <point x="201.89583333333334" y="298.0" />
+      <point x="210.5" y="298.0" />
+      <point x="210.5" y="82.0" />
+      <point x="191.4375" y="82.0" />
+      <point x="31.25" y="28.5" />
+    </edge>
+    <edge source="structural.proxy.RealImage" target="structural.proxy.Image">
+      <point x="0.0" y="-83.0" />
+      <point x="100.0" y="82.0" />
+      <point x="128.9375" y="82.0" />
+      <point x="-31.25" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="115.5" y="244.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
